@@ -25,6 +25,7 @@ This repository is dedicated to a highly efficient, parallel RNA-seq pipeline de
    git clone https://github.com/qnmateen/parallel-rna-seq-pipeline.git
    cd parallel-rna-seq-pipeline
 
+chmod +x setup_rnaseq_tools_latest.sh
 
 
 2. **Create and Activate the Conda Environment**:
@@ -40,6 +41,9 @@ This repository is dedicated to a highly efficient, parallel RNA-seq pipeline de
    ```bash
    conda activate rnaseq-tools
    ```
+
+
+
 
 ### Running the Pipeline
 
