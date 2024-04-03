@@ -52,7 +52,7 @@ To launch the parallel RNA-seq analysis, ensure your data and script paths are c
 ```bash
 bash rna_seq_pipeline.sh
 ```
-
+Please ensure that the paths, fasta and gtf for STAR is updated in this file
 
 ## Contents
 
@@ -71,6 +71,3 @@ This project is released under the CC0 1.0 Universal, supporting open and reprod
 
 Our gratitude goes to the developers of FastQC, Trimmomatic, STAR, featureCounts, and the SRA Toolkit for their invaluable tools that make this pipeline possible.
 ```
-
-
-
