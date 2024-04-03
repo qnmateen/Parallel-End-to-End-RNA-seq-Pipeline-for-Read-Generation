@@ -26,3 +26,47 @@ This repository is dedicated to a highly efficient, parallel RNA-seq pipeline de
    cd parallel-rna-seq-pipeline
 
 
+
+2. **Create and Activate the Conda Environment**:
+
+   Set up the environment and install all necessary tools with:
+
+   ```bash
+   bash setup_rnaseq_tools_latest.sh
+   ```
+
+   Activate the environment:
+
+   ```bash
+   conda activate rnaseq-tools
+   ```
+
+### Running the Pipeline
+
+To launch the parallel RNA-seq analysis, ensure your data and script paths are correctly set, then execute:
+
+```bash
+bash rna_seq_pipeline.sh
+```
+
+
+## Contents
+
+- `setup_rnaseq_tools_latest.sh`: Prepares a Conda environment with the latest bioinformatics tools for RNA-seq analysis.
+- `rna_seq_pipeline.sh`: Executes the parallel RNA-seq pipeline, covering all steps from quality control to read generation.
+
+## How to Contribute
+
+We welcome contributions to improve the pipeline or extend its capabilities. Please fork this repository, make your changes, and submit a pull request with your improvements.
+
+## License
+
+This project is released under the [MIT License](LICENSE), supporting open and reproducible scientific research.
+
+## Acknowledgments
+
+Our gratitude goes to the developers of FastQC, Trimmomatic, STAR, featureCounts, and the SRA Toolkit for their invaluable tools that make this pipeline possible.
+```
+
+
+
