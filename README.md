@@ -61,7 +61,7 @@ We welcome contributions to improve the pipeline or extend its capabilities. Ple
 
 ## License
 
-This project is released under the [MIT License](LICENSE), supporting open and reproducible scientific research.
+This project is released under the CC0 1.0 Universal, supporting open and reproducible scientific research.
 
 ## Acknowledgments
 
